@@ -1,0 +1,36 @@
+<h1>Products & Services</h1>
+<section>
+	<table>
+	<tbody>
+			<tr>
+				<td>
+					<h2>Product/Service</h2>
+				</td>
+				<td class="description-td">
+					<h2>Description</h2>
+				</td>
+				<td> 
+					<h2>Cost</h2>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<% @products.each do |product| %>
+		<table>
+			<tbody>
+				<tr>
+					<td>
+						<%= product.name %>
+					</td>
+					<td class="description-td">
+						<%= product.description %><br>
+					</td>
+					<td> 
+						<%= product.cost %><br>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<hr /> <br />
+	<% end %>
+</section>

@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Infoapp</title>
+    <title>Information App</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
+<header>
+<div class="topper">
+  <p>Getting your free quote is the first step in planning your success!</p>
+</header>
   <body>
     <%= yield %>
   </body>
