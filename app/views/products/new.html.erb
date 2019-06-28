@@ -1,9 +1,14 @@
+<br />
 <h1>Add a New Product to the Catalogue</h1>
+<br />
+<section class="fbox col-10 offset-1">
   <br />
   <%= simple_form_for @product do |f| %>
     <%= f.input :name %>
-    <%= f.input :description %>
     <%= f.input :cost %>
+    <%= f.input :description %>
     <br />
-    <%= f.submit 'Add Product', class: 'btn btn-success' %>
+    <center><%= f.submit 'Add Product', class: 'btn btn-success' %></center>
   <% end %>
+  <br />
+</section>
