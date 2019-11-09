@@ -1,24 +1,18 @@
 <br />
 <h1>Products & Services</h1><br />
 <section class="col-10 offset-1">
-	<table>
-	<tbody>
-			<tr>
-				<td>
+	<table class="products">
+		<tbody>
+			<th>
 					<h2>Product/Service</h2>
-				</td>
-				<td class="description-td">
+				</th>
+				<th >
 					<h2>Description</h2>
 				</td>
-				<td> 
+				<th> 
 					<h2>Cost</h2>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-	<% @products.each do |product| %>
-		<table>
-			<tbody>
+				</th>
+			<% @products.each do |product| %>
 				<tr>
 					<td>
 						<%= product.name %>
@@ -29,11 +23,14 @@
 					<td> 
 						<%= product.cost %><br>
 					</td>
+						<td> 
+						<%= link_to 'Details' %><br>
+					</td>
 				</tr>
+			<% end %>
 			</tbody>
-		</table>
-		<hr /> <br />
-	<% end %>
+	</table>
+	<br />
 </section>
 <br />
 <center>

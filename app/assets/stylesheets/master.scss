@@ -1,15 +1,18 @@
 @import "bootstrap";
 
 body {
-	font-family: 'Courier New', Courier, monospace;
+	background-color: rgb(233, 230, 230);
 }
+
 h1 {
 	color: #800020;
 	text-align: center;
 }
+
 .description-td {
 	width: 50%
 }
+
 td {
 	width: 25%;
 	vertical-align: 3px;
@@ -17,11 +20,43 @@ td {
 	padding-left: 3px;
 	padding-right: 3px;
 }
+
 table {
 	margin-left: auto;
 	margin-right: auto;
 	width: 95%;
 }
+
+.products {
+	color: black;
+	th {
+		background-color: blue;
+		text-align: center;
+		color: white;
+	}
+	td {
+		border-radius: 30px;
+	}
+
+	tr:nth-child(even) {
+		background: rgb(178, 178, 178)
+	}
+
+	tr:nth-child(odd) {
+		background: rgb(233, 230, 230)
+	}
+}
+
+.products a {
+	color: navy;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+
+
 section {
 	background-color: blue;
 	color: azure;
@@ -29,8 +64,9 @@ section {
 	font-weight: bold;
 	border-radius: 10px;
 }
+
 .topper {
-	background-color: silver;
+	background: image_url('dynamic-wang-stW5tVmlI7s-unsplash.jpg') center;
 	border-bottom: 2px solid grey;
 	margin-left: auto;
 	margin-right: auto;
@@ -40,12 +76,16 @@ section {
 	vertical-align: 2px;
 	opacity: .9;
 	height: 30px;
+	color: white;
+
 }
+
 .new-product {
-margin-right: 75% !important;
+	margin-right: 75% !important;
 }
+
 .fbox {
-	background-color: #e8e8e8;
+	background-color: #727171;
 	margin-right: auto;
 	margin-left: auto;
 	box-shadow: 1px 2px #800020;

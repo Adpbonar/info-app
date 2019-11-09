@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is being built using Ruby 2.5.3 and Rails 5.2.3. Upon completion, Information App will be a full-service inventory management app providing both online and brick and mortar sales solutions. 
 
-Things you may want to cover:
+More information to come...
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<img src="https://docs.google.com/uc?id=1Ft93n5vOio54285itaALpf3ekRYZ41qy" />
